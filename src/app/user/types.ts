@@ -6,6 +6,9 @@ lastName:String
 email:String!
 profileImageUrl:String
 
+followers:[user]
+following:[user]
+
 
 tweets :[Tweet]
 }
